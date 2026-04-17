@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/images/paisl-avatar.svg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "https://avatars.githubusercontent.com/u/266098881?s=400&u=733c79b04ed37ef0da8109a0b9fef09fd5fdace8&v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "PAISL",
 	bio: "임베디드 시스템과 AI의 융합 보안을 연구하고, 피지컬 AI 시대를 이끌 인재를 키우는 연구반입니다.",
 	links: [
