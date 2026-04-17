@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "피지컬 인공지능 보안 연구반",
 	lang: "ko", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 195, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 210, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: true, // Hide the theme color picker for visitors
 	},
 	banner: {
@@ -40,7 +40,11 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
-		LinkPreset.About,
+		{
+			name: "동아리 소개",
+			url: "https://paisl.cloud",
+			external: true,
+		},
 		{
 			name: "GitHub",
 			url: "https://github.com/PAISL-lab", // Internal links should not include the base path, as it is automatically added
@@ -52,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/266098881?s=400&u=733c79b04ed37ef0da8109a0b9fef09fd5fdace8&v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "PAISL",
-	bio: "임베디드 시스템과 AI의 융합 보안을 연구하고, 피지컬 AI 시대를 이끌 인재를 키우는 연구반입니다.",
+	bio: "PAISL은 한세사이버보안고등학교 소속 피지컬 인공지능 보안 연구반으로, 하드웨어부터 인공지능 까지 풀 스택 기술폭을 기반으로 보안과, 전산학, 전자전기공학에 대해 학술적인 연구를 진행하는 동아리 입니다.",
 	links: [
 		{
 			name: "GitHub",
